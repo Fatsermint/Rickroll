@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.rickroll{
+    height: 85%;
+    width: 85%;
+    margin-left: 7.5%;
+}
+#p{
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 6%;
+}
+#copyButton{
+    height: 6vh;
+    width: 6vw;
+    margin-left: 10%;
+}
