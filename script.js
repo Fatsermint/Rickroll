@@ -4,7 +4,7 @@ const catP = document.getElementById("pCat")
 const video = document.getElementById("rickroll")
 const div = document.getElementById("shareDiv")
 let mouthOpen = false
-const adress = "https://hsl-data.pages.dev"
+const adress = "https://cute-cat.pages.dev"
 function copyToClipBoard() {
 
     navigator.clipboard.writeText(adress)
