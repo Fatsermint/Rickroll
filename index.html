@@ -4,15 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rick Roll</title>
+    <title>Cute Cat</title>
 </head>
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
 <body>
+    <p id="pCat">Click Me 5 Times For A Surprise</p>
+    <img id="cat" src="cute_cat.png" alt="" height="200vh">
     <div id="rickRoll">
-        <video autoplay class="rickroll"> <source src="https://dn720407.ca.archive.org/0/items/rick-roll/Rick%20Roll.mp4" type="video/mp4"></video>
+        <video id="rickroll" hidden>
+            <source src="https://dn720407.ca.archive.org/0/items/rick-roll/Rick%20Roll.mp4" type="video/mp4">
+        </video>
     </div>
-    <p id="p">Share To Your Friends?</p>
-    <button id="copyButton">Copy Link</button>
+    <div hidden id="shareDiv">
+        <p id="p">Share To Your Friends?</p>
+        <button id="copyButton"><p id="spanId">Copy Link</p></button>
+        <br>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
