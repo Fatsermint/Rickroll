@@ -1,5 +1,6 @@
 <img width="1848" height="714" alt="image" src="https://github.com/user-attachments/assets/f5bb0dd8-68ea-4e99-9ff1-e97fa09f5260" />
-# Cute cat
+
+## Cute cat
 
 ### A website that rick rolls you if you press the cat 5 times
 ## How can I try this
